@@ -1,0 +1,39 @@
+1) 
+	select *
+	from studenti
+
+2)
+	select nome , cognome
+	from studenti 
+
+3)
+	select  *
+	from studenti
+	where anno_nascita > 2008;
+
+4)
+	select *
+	from studenti 
+	where cognome='Rossi';
+
+
+5)
+	select *
+	from studenti 
+	where anno_nascita= 2009;
+
+
+6)
+	select *
+	from studenti 
+	where nome != 'Marco';
+
+7)
+	select *
+	from studenti 
+	where id= > 3
+
+8)
+	select * 
+	from studenti 
+	where anno_nascita between 2007 and 2009;

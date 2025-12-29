@@ -1,0 +1,49 @@
+1)
+	insert into studenti(id, nome, cognome, anno_nascita)
+	values (3 , "jnny" , "lorenzi" , 2010)
+
+
+
+2)
+	insert into studenti(id, nome, cognome, anno_nascita)
+	values 
+	(1 , "Luca" , "Franchi" , 2009);
+	(2 , "Beatrice" , "Sandrini" , 2011);
+	(3 , "Federico" , "Ferrante" , 2012);
+
+
+
+3)
+	update studenti 
+	set anno_nascita = 2010 
+	where id= 10;
+
+
+4)
+	update studenti 
+	set cognome ="franchi"
+	where id= 2;
+
+
+
+
+5)	
+	delete from studenti 
+	where id= 5;
+
+
+6)
+	insert into studenti(id, nome, cognome, anno_nascita)
+	values ( 34 , "Michela" , "Bianchi" , NULL);
+
+
+7)
+	update studenti 
+	set anno_nascita = 2009
+	where anno_nascita = 2008;
+
+
+8)
+	delete from studenti 
+	where anno_nascita < 2005;
+	

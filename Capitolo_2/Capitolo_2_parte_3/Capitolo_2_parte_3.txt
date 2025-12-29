@@ -1,0 +1,39 @@
+1)
+	select *
+	from studenti 
+	order by cognome
+
+2)
+	select *
+	from studenti 
+	order by anno_nascita desc
+
+3)
+	select *
+	from studenti
+	order by cognome asc , nome asc
+
+4)
+	select *
+	from studenti 
+	limit 5;
+
+5)
+	select *
+	from studenti 
+	order by id desc limit 3;
+
+6)
+	select *
+	from studenti
+	order by anno_nscitee asc 
+	limit 10;
+
+7) 
+	asc ordina il risultato della query in modo ascendente cioè dal valore piu basso a quello piu alto , invece desc ordina i risultati della query in modo discendente
+	cioè dal valore piu alto a qullo piu basso.
+
+8)
+	Il risultato della query esce con asc perchè è il valore di 
+	default
+ 

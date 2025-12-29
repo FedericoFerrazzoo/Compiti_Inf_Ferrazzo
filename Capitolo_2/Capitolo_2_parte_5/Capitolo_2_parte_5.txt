@@ -1,0 +1,33 @@
+1)
+	select *
+	from studenti s join voti v on s.id= v.id_studenti
+
+2)
+	select  *
+	from studenti s left join voti v on s.id=v.id_stuenti
+
+3)
+	select s.nome , s.cognome , v.voto
+	from studenti s join voti v on s.id=v.id_studenti
+
+4)
+	slect *
+	from studenti s left join voti v on s.id=v.id_studenti 
+
+5)
+	select s.nome , s.cognome , v.voti
+	from studenti s join voti v on s.id=v.id_studenti
+	where voti >= 6
+
+6)
+	select s.nome , v.voto , m.nome
+	from studenti s join voti v on s.id=v.id_studenti join materie m on v.id_materie=m.id
+
+7)
+	select *
+	from studenti s join voti v on s.id=v.id_studenti join materie m on v.id_materie=m.id
+	order by cognome asc , voto desc
+
+8) 	
+	select s.nome , v.voto , m.nome
+	from studenti s left join voti v on s.id=v.id_studenti left join materie m on v.id_materie=m.id

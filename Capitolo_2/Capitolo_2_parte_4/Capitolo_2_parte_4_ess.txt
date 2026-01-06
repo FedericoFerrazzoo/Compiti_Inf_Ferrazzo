@@ -2,16 +2,19 @@
 	Una foreign key detta anche chiave esterna serve per collegare due tabelle nello stesso db
 
 2)
-	studenti: Pk = id ,tabella: Fk = studente_id Pk = id
+	studenti: Pk = id , voti : PK = id , voti: FK = studenti_id , studenti FK = id
+ 
 
 3)
 	select *
-	from studenti s join titoli t on s.id=t.studenti_id
+	from studenti , voti
+	where studenti.id=voti.studenti_id
 
 4)
-	select *
-	from studenti s join titoli t on s.id=t.studenti_id
-	where id = 1
+	select v.voti , s.nome
+	from studenti , voti
+	where studenti.id=voti.studenti_id 
+	and id= 1 
 
 5)
 	
@@ -24,8 +27,9 @@
 	Questa query è sbagliata perché  le tabelle non sono collegate bene!
 
 7)	
-	select s.nome , t.voto
-	from studenti s join titoli t on s.id=t.id_studenti
+	select s.nome , v.voto
+	from studenti , voti
+	where studenti.id=voti.studenti_id
 
 8)
 	select s.nome , t.titoli
@@ -39,4 +43,8 @@
 	il join naturale è un modo per collegare due tabelle in un db 
 	
 	
+	
+	
+	
+
 	

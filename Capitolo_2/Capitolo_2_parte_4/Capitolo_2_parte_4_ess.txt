@@ -17,7 +17,7 @@
 	and id= 1 
 
 5)
-	
+  Collegano piu tabelle tra loro 
 
 
 6)	

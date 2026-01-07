@@ -1,17 +1,17 @@
 1)
 	select *
 	from studenti 
-	order by cognome
+	order by cognome asc ;
 
 2)
 	select *
 	from studenti 
-	order by anno_nascita desc
+	order by anno_nascita desc ;
 
 3)
 	select *
 	from studenti
-	order by cognome asc , nome asc
+	order by cognome asc , nome asc ;
 
 4)
 	select *
@@ -37,3 +37,4 @@
 	Il risultato della query esce con asc perchè è il valore di 
 	default
  
+

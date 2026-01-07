@@ -1,62 +1,63 @@
 1)
 	select *
 	from studenti
-	limit 5
+	limit 5 ;
 
 2)
 	select *
 	from studenti
 	order by cognome 
-	limit 3
+	limit 3 ;
 
 3)
 	select *
 	from studenti
 	order by id desc
-	limit 2 
+	limit 2 ;
 	
 4)
 	select *
 	from studenti 
 	where anno_nascita > 2008 
-	limit 4
+	limit 4 ;
 
 5)
 	select *
 	from studenti 
 	order by cognome asc 
-	limit 10
+	limit 10 ;
 
 6)
 	select *
 	from studenti
 	limti 5
-	offset 5
+	offset 5 ;
 
 7)
 	select *
 	from studenti
-	limiti 5 , 5
+	limiti 5 , 5 ;
 
 8)
 	select *
 	from studenti 
 	order by cognome asc
-	limit 1 
+	limit 1 ;
 
 9)
 	select *
 	from studenti
-	limit 1 , 3
+	limit 1 , 3 ;
 
 10)	
 	select s.nome , s.cognome 
 	from studenti
 	where cognome = 'rossi'
 	order by cognome desc
-	limit 5 
+	limit 5 ;
 	
 	
 
 	
+
 	

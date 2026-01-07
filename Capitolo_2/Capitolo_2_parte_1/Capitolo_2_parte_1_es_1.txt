@@ -1,6 +1,6 @@
 1)
 	insert into studenti(id, nome, cognome, anno_nascita)
-	values (3 , "jnny" , "lorenzi" , 2010)
+	values (3 , "janny" , "lorenzi" , 2010);
 
 
 
@@ -46,4 +46,5 @@
 8)
 	delete from studenti 
 	where anno_nascita < 2005;
+
 	
